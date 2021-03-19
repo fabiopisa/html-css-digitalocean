@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fp-pad-30{
+  padding: 30px 0;
+}
+
+.fp-pad-60{
+  padding: 60px 0;
+}
+
+.fp-h-20{
+  height: 20px;
+}
+
+.fp-h-50{
+  height: 50px;
+}
+
+.fp-h-300{
+  height: 300px;
+}
+.fp-h-150{
+  height: 150px;
+}
+
+.fp-back-whi{
+  background-color: #FFFFFF;
+}
+
+.fp-back-blue{
+  background-color: #0034AE;
+}
+
+.fp-back-grey{
+  background-color: #F3F5F9;
+}
+
+.fp-back-red{
+  background-color: #da4214;
+}
+
+.fp-back-green{
+  background-color: #1dbe25;
+}
+
+.fp-back-pink{
+  background-color: #d98ae4;
+}
+
+.fp-ma-bot{
+  margin-bottom: 10px;
+}
+
+/* BARRA FISSATA */
+.nav-fix{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+}
+/* /BARRA FISSATA */
+
+/* HEADER */
+header{
+  margin-top: 80px;
+  background-image: url(../img/bg-banner-home.jpg);
+  background-size: contain;
+  background-position: right;
+}
+/* /HEADER */
+
+/* MAIN */
+/* SEZIONE LOGHI */
+main .log-sec .button{
+  margin-top: 20px;
+}
+/* /SEZIONE LOGHI */
+/* SEZIONE DEPLOY */
+
+/* /SEZIONE DEPLOY */
+/* /MAIN */

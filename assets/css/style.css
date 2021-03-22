@@ -9,6 +9,10 @@ section, header, footer{
   font-weight: 500;
 }
 
+.fp-f-weig-700{
+  font-weight: 700;
+}
+
 .fp-pad-20{
   padding: 20px 0;
 }
@@ -85,6 +89,34 @@ ul{
 .fp-m-right-15{
   margin-right: 15px;
 }
+
+.fp-text-white{
+  color: #FFFFFF;
+}
+
+.fp-text-blue{
+  color: #006AFF;
+}
+
+.fp-text-black-blue{
+  color: #102756;
+}
+
+.fp-font-s-450{
+  font-size: 450%;
+}
+
+.fp-font-s-160{
+  font-size: 160%;
+}
+
+.fp-font-s-190{
+  font-size: 220%;
+}
+
+.fp-b-radio{
+  border-radius: 5px;
+}
 /* BARRA FISSATA */
 .nav-fix{
   position: fixed;
@@ -141,8 +173,41 @@ a.fp-btn-wb.fp-btn{
 header{
   margin-top: 80px;
   background-image: url(../img/bg-banner-home.jpg);
-  background-size: contain;
-  background-position: right;
+  background-size: cover;
+  background-position: center;
+}
+
+.jumb-dati{
+  padding:30px 10px;
+}
+
+.jumb-dati li:last-child{
+  margin-top: 15px;
+}
+
+.jumb-dati li:last-child a{
+box-shadow: 1px 1px 2px rgba(0, 0, 0,0.2);
+color:#626262 ;
+padding: 5px 144px;
+}
+
+.jumb-dati li:first-child a{
+background-color:#579AFF ;
+padding: 5px 154px;
+color: #FFFFFF;
+}
+
+header img{
+  width: 4%;
+}
+
+.jumb-dati>span{
+  font-size: 95%;
+}
+
+.jumb-dati>span a{
+  text-decoration: underline;
+  color:#096FFF ;
 }
 /* /HEADER */
 

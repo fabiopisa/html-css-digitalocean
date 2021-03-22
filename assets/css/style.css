@@ -53,18 +53,6 @@ section, header, footer{
   background-color: #F3F5F9;
 }
 
-.fp-back-red{
-  background-color: #da4214;
-}
-
-.fp-back-green{
-  background-color: #1dbe25;
-}
-
-.fp-back-pink{
-  background-color: #d98ae4;
-}
-
 .fp-ma-bot{
   margin-bottom: 10px;
 }
@@ -125,6 +113,10 @@ ul{
 
 .fp-font-s-260{
   font-size: 260%;
+}
+
+.fp-title-sec-size{
+  font-size: 250%;
 }
 /*/ FONT SIZE */
 /* BOTTONI */

@@ -17,12 +17,12 @@ section, header, footer{
   padding: 20px 0;
 }
 
-.fp-pad-60{
-  padding: 60px 0;
+.fp-pad-30{
+  padding: 30px 0;
 }
 
-.fp-h-20{
-  height: 20px;
+.fp-pad-60{
+  padding: 60px 0;
 }
 
 .fp-h-50{
@@ -89,7 +89,7 @@ ul{
 .fp-m-right-15{
   margin-right: 15px;
 }
-
+/* COLORI TESTO */
 .fp-text-white{
   color: #FFFFFF;
 }
@@ -102,6 +102,11 @@ ul{
   color: #102756;
 }
 
+.fp-text-grey{
+  color: #77829D;
+}
+/* /COLORI TESTO */
+/* FONT SIZE */
 .fp-font-s-450{
   font-size: 450%;
 }
@@ -110,12 +115,40 @@ ul{
   font-size: 160%;
 }
 
-.fp-font-s-190{
+.fp-font-s-162{
+  font-size: 162%;
+}
+
+.fp-font-s-220{
   font-size: 220%;
+}
+
+.fp-font-s-260{
+  font-size: 260%;
+}
+/*/ FONT SIZE */
+/* BOTTONI */
+.fp-btn{
+  border: 1px solid;
+  padding:5px ;
+  border-radius: 5px;
+}
+
+.fp-btn-wb{
+  border-color:#1274FF ;
+}
+/* /BOTTONI */
+
+.fp-upper{
+  text-transform: uppercase;
 }
 
 .fp-b-radio{
   border-radius: 5px;
+}
+
+.fp-m-bottom-50{
+  margin-bottom: 50px;
 }
 /* BARRA FISSATA */
 .nav-fix{
@@ -157,18 +190,6 @@ a.fp-btn-wb.fp-btn{
 }
 /* /BARRA FISSATA */
 
-/* BOTTONI */
-.fp-btn{
-  border: 1px solid;
-  padding:5px ;
-  border-radius: 5px;
-}
-
-.fp-btn-wb{
-  border-color:#1274FF ;
-}
-/* /BOTTONI */
-
 /* HEADER */
 header{
   margin-top: 80px;
@@ -188,12 +209,12 @@ header{
 .jumb-dati li:last-child a{
 box-shadow: 1px 1px 2px rgba(0, 0, 0,0.2);
 color:#626262 ;
-padding: 5px 144px;
+padding: 1% 33.3%;
 }
 
 .jumb-dati li:first-child a{
 background-color:#579AFF ;
-padding: 5px 154px;
+padding: 1% 35.2%;
 color: #FFFFFF;
 }
 
@@ -216,9 +237,49 @@ header img{
 main .log-sec .button{
   margin-top: 20px;
 }
+
+main .log-sec h4{
+  margin-bottom: 40px;
+}
+
+main .log-sec .button a{
+  color:#096FFF;
+}
+
+main .log-sec .button a span{
+  font-size: 70%;
+}
+
+main .log-sec img{
+  width: 100%;
+  max-height:90px ;
+}
 /* /SEZIONE LOGHI */
 
 /* SEZIONE DEPLOY */
+.dep-sec ul{
+ border-left: 1px solid #77829D;
+ margin-left: 25%;
+}
+
+.dep-sec ul li{
+  margin-top: 15px;
+  padding-left: 10px;
+  color:#77829D ;
+  font-size: 150%;
+}
+
+.dep-sec img{
+  width: 10%;
+}
+
+.dep-sec h5{
+  font-size: 120%;
+}
+
+.dep-box p{
+  padding-right: 100px;
+}
 /* /SEZIONE DEPLOY */
 
 /* SEZIONE DESIGNED */

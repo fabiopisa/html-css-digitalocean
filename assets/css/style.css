@@ -46,7 +46,7 @@ section, header, footer{
 }
 
 .fp-back-blue{
-  background-color: #0034AE;
+  background-color: #031C4E;
 }
 
 .fp-back-grey{
@@ -140,8 +140,16 @@ ul{
   text-transform: uppercase;
 }
 
+.fp-bold{
+  font-weight: bold;
+}
+
 .fp-b-radio{
   border-radius: 5px;
+}
+
+.fp-m-bottom-80{
+  margin-bottom: 80px;
 }
 
 .fp-m-bottom-50{
@@ -382,15 +390,27 @@ main .log-sec img{
 /* /SEZIONE SERVICE */
 
 /* SEZIONE DEVELOPMENT */
-.devel-sec .desig-img .box-develop img{
-  width: 40%;
+.devel-sec .box-develop .img-rock{
+  width: 50%;
 }
 
-.devel-sec .desig-img .box-develop {
-  width: 53%;
-  margin: auto;
-  display: inline-block;
+.devel-sec .desig-img span{
+  padding-top: 57%;
+} 
+
+.devel-sec .box-develop p {
+  font-size: 150%;
+  margin: 15px 0;
 }
+
+.box-develop a{ 
+  color:#257EFF ;
+}
+
+.box-develop a span{ 
+  font-size: 65%;
+}
+
 /* /SEZIONE DEVELOPMENT */
 
 /* SEZIONE GET */

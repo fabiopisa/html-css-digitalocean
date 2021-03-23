@@ -410,7 +410,6 @@ main .log-sec img{
 .box-develop a span{ 
   font-size: 65%;
 }
-
 /* /SEZIONE DEVELOPMENT */
 
 /* SEZIONE GET */
@@ -426,4 +425,53 @@ main .log-sec img{
 footer{
   background-color:#031C4E ;
 }
+footer img{
+  width: 12%;
+  margin-bottom: 10px;
+}
+
+footer li h5{
+  font-size: 120%;
+}
+
+footer li{
+  margin-right: 10px;
+  font-size: 110%;
+  line-height: 25px;
+}
+
+footer .line-col li {
+  display: inline;
+  line-height: 50px;
+}
+
+footer li a{
+  color: #868FA5;
+}
+
+footer li a i{
+  font-size: 20px;
+}
+
+footer span{
+color: #516081;
+}
+
+footer p>span{
+color: #868FA5;
+}
+
+footer p{
+  color: #868FA5;
+  margin-bottom: 0px;
+}
+
+footer li a:hover{
+  color: #FFFFFF;
+}
+
+footer li a:active{
+  color: #ee5c5c;
+}
+
 /* /FOOTER */

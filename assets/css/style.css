@@ -414,6 +414,11 @@ main .log-sec img{
 /* /SEZIONE DEVELOPMENT */
 
 /* SEZIONE GET */
+.get-sec a{
+  padding: 10px;
+  color: #006AFF ;
+  font-size: 140%;
+}
 /* /SEZIONE GET */
 /* /MAIN */
 

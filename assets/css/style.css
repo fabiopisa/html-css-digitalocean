@@ -332,27 +332,65 @@ main .log-sec img{
 /* /SEZIONE DESIGNED */
 
 /* SEZIONE FEATURES */
+.feat-sec h5{
+  font-size: 150%; 
+ }
+ 
+ .feat-sec p{
+  font-size: 115%; 
+ }
+ .feat-sec span{
+  font-size: 65%; 
+ }
+ 
+ .feat-sec a{
+  font-size: 125%; 
+  color:#257EFF ;
+ }
 /* /SEZIONE FEATURES */
 
 /* SEZIONE SERVICE */
-.feat-sec h5{
- font-size: 150%; 
+.service-border{
+  border-bottom: 1px solid #FFFFFF;
 }
 
-.feat-sec p{
- font-size: 115%; 
-}
-.feat-sec span{
- font-size: 65%; 
+.servi-sec h3{
+  margin-bottom: 20px;
 }
 
-.feat-sec a{
- font-size: 125%; 
- color:#257EFF ;
+.servi-sec .two{
+  padding-left: 20px;
+  color: #AABCE5;
+}
+
+.servi-sec .three{
+  color: #00CDCF;
+}
+
+.servi-sec .three>span{
+  font-size: 65%;
+}
+
+.servi-sec span{
+  line-height: 40px;
+}
+
+.line-white{
+  border-top: 1px solid #FFFFFF;
+  width: 94%;
 }
 /* /SEZIONE SERVICE */
 
 /* SEZIONE DEVELOPMENT */
+.devel-sec .desig-img .box-develop img{
+  width: 40%;
+}
+
+.devel-sec .desig-img .box-develop {
+  width: 53%;
+  margin: auto;
+  display: inline-block;
+}
 /* /SEZIONE DEVELOPMENT */
 
 /* SEZIONE GET */

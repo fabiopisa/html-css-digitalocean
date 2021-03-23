@@ -54,11 +54,16 @@ section, header, footer{
 }
 
 .fp-ma-bot{
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .fp-wrapper-50{
   width: 50%;
+  margin: 0 auto;
+}
+
+.fp-wrapper-70{
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -142,6 +147,14 @@ ul{
 .fp-m-bottom-50{
   margin-bottom: 50px;
 }
+
+.fp-m-bottom-40{
+  margin-bottom: 40px;
+}
+
+.fp-m-bottom-30{
+  margin-bottom: 30px;
+}
 /* BARRA FISSATA */
 .nav-fix{
   position: fixed;
@@ -194,20 +207,29 @@ header{
   padding:30px 10px;
 }
 
+.jumb-dati li:first-child a{ 
+  width: 100%;
+  color: #FFFFFF;
+}
+
+.jumb-dati li:first-child{
+  background-color:#579AFF;
+  line-height: 30px;
+}
+
 .jumb-dati li:last-child{
   margin-top: 15px;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0,0.2);
+  line-height: 30px;
+  background-image: url(../img/google-icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 10px;
 }
 
 .jumb-dati li:last-child a{
-box-shadow: 1px 1px 2px rgba(0, 0, 0,0.2);
 color:#626262 ;
-padding: 1% 33.3%;
-}
-
-.jumb-dati li:first-child a{
-background-color:#579AFF ;
-padding: 1% 35.2%;
-color: #FFFFFF;
+width: 100%;
 }
 
 header img{
@@ -226,19 +248,15 @@ header img{
 
 /* MAIN */
 /* SEZIONE LOGHI */
-main .log-sec .button{
+main .log-sec .button-log{
   margin-top: 20px;
 }
 
-main .log-sec h4{
-  margin-bottom: 40px;
-}
-
-main .log-sec .button a{
+main .log-sec .button-log a{
   color:#096FFF;
 }
 
-main .log-sec .button a span{
+main .log-sec .button-log a span{
   font-size: 70%;
 }
 
@@ -251,7 +269,6 @@ main .log-sec img{
 /* SEZIONE DEPLOY */
 .dep-sec ul{
  border-left: 1px solid #77829D;
- margin-left: 25%;
 }
 
 .dep-sec ul li{
@@ -268,19 +285,71 @@ main .log-sec img{
 .dep-sec h5{
   font-size: 120%;
 }
-
-.dep-box p{
-  padding-right: 100px;
-}
 /* /SEZIONE DEPLOY */
 
 /* SEZIONE DESIGNED */
+.desig-box p{
+  font-size: 160%;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+.desig-sec .desig-img img{
+  width: 53%;
+}
+
+.desig-img span{
+  font-size: 200%;
+}
+
+.desig-img span:first-child{
+  margin-right: 20px;
+}
+
+.desig-img span:last-child{
+  margin-left: 20px;
+}
+
+.circle-box p{
+  margin-top: 20px;
+  font-size: 110%;
+}
+
+.circle-box i{
+  color:#006AFF ;
+  font-size: 90%;
+}
+
+/* .circle-box i:hover{
+  background-color:#768eaf ;
+  border-radius: 50%;
+} */
+
+.circle-box i:active{
+  background-color:#006AFF ;
+  border-radius: 50%;
+}
 /* /SEZIONE DESIGNED */
 
 /* SEZIONE FEATURES */
 /* /SEZIONE FEATURES */
 
 /* SEZIONE SERVICE */
+.feat-sec h5{
+ font-size: 150%; 
+}
+
+.feat-sec p{
+ font-size: 115%; 
+}
+.feat-sec span{
+ font-size: 65%; 
+}
+
+.feat-sec a{
+ font-size: 125%; 
+ color:#257EFF ;
+}
 /* /SEZIONE SERVICE */
 
 /* SEZIONE DEVELOPMENT */
